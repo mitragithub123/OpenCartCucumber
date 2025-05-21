@@ -1,0 +1,21 @@
+00:23:08.744 [main] INFO  base.BaseTest - Navating to login page
+00:23:09.668 [main] INFO  base.BaseTest - Entering email
+00:23:10.160 [main] INFO  base.BaseTest - Entering password
+00:23:10.520 [main] INFO  base.BaseTest - Clicking login button
+00:23:58.408 [main] INFO  base.BaseTest - Navating to login page
+00:23:59.210 [main] INFO  base.BaseTest - Entering email
+00:23:59.533 [main] INFO  base.BaseTest - Entering password
+00:23:59.713 [main] INFO  base.BaseTest - Clicking login button
+00:27:24.189 [main] INFO  base.BaseTest - Navigating to login page
+00:35:01.256 [main] INFO  base.BaseTest - Navigating to login page
+00:35:02.439 [main] INFO  base.BaseTest - Entering email
+00:35:03.112 [main] INFO  base.BaseTest - Entering password
+00:35:03.443 [main] INFO  base.BaseTest - Clicking login button
+22:57:39.512 [main] INFO  base.BaseTest - Navigating to login page
+22:57:40.962 [main] INFO  base.BaseTest - Entering email
+22:57:42.375 [main] INFO  base.BaseTest - Entering password
+22:57:43.405 [main] INFO  base.BaseTest - Clicking login button
+23:01:19.917 [main] INFO  base.BaseTest - Navigating to login page
+23:01:22.743 [main] INFO  base.BaseTest - Entering email
+23:01:24.824 [main] INFO  base.BaseTest - Entering password
+23:01:25.638 [main] INFO  base.BaseTest - Clicking login button
