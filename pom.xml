@@ -110,6 +110,14 @@
 			<artifactId>commons-text</artifactId>
 			<version>1.10.0</version>
 		</dependency>
+		
+		<!--Chain test report-->
+		<dependency>
+			<groupId>com.aventstack</groupId>
+			<artifactId>chaintest-cucumber-jvm</artifactId>
+			<version>1.0.12</version>
+		</dependency>
+
 
 
 	</dependencies>

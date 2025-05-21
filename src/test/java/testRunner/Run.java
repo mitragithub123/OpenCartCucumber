@@ -18,7 +18,8 @@ import io.cucumber.junit.CucumberOptions;
 		        "html:target/cucumber-html-report.html",           // Built-in HTML report
 		        "json:target/cucumber.json",                       // JSON report for other integrations
 		        "rerun:target/rerun.txt",                          // Stores failed scenarios
-		        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" // Extent report
+		        "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", // Extent report (Inside test-output)
+		        "com.aventstack.chaintest.plugins.ChainTestCucumberListener:"  // Chain test report (Inside target)
 		    },
 		dryRun = false,      // Set to true to check mapping between steps and step definitions without executing tests
 		monochrome = true,   // Removes unnecessary characters from console output for readability

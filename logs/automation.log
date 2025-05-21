@@ -19,3 +19,7 @@
 23:01:22.743 [main] INFO  base.BaseTest - Entering email
 23:01:24.824 [main] INFO  base.BaseTest - Entering password
 23:01:25.638 [main] INFO  base.BaseTest - Clicking login button
+23:17:41.681 [main] INFO  base.BaseTest - Navigating to login page
+23:17:43.728 [main] INFO  base.BaseTest - Entering email
+23:17:44.747 [main] INFO  base.BaseTest - Entering password
+23:17:45.702 [main] INFO  base.BaseTest - Clicking login button
