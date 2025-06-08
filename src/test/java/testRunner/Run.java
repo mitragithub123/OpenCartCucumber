@@ -9,7 +9,9 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 		// features = {".\\Features\\Login.feature", ".\\Features\\Registration.feature"},
 		// features = {".\\Features"},
-		features = {".\\Features\\Login.feature"},
+		// features = {".\\Features\\Login.feature"},
+		// features = {".\\Features\\LoginDDTExcel.feature"},
+		features = {".\\Features\\LoginDDT.feature"},
 		//features = {".\\Features\\Registration.feature"},
 		// features = {"@target/rerun.txt"},
 		glue = {"stepDefinations", "hooks"},

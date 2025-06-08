@@ -19,9 +19,9 @@
         <span class="ms-3 fs-6">default</span>
       </div>
       <div>
-        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 36s</span>
-        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-05-21 11:17:17 pm</span>
-        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-05-21 11:17:54 pm</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-hourglass me-1"></i> 57s</span>
+        <span class="badge badge-outline text-lg"><i class="bi bi-clock me-1 text-success"></i> 2025-06-08 06:20:26 pm</span>
+        <span class="badge badge-outline text-lg me-3"><i class="bi bi-clock me-1 text-danger"></i> 2025-06-08 06:21:24 pm</span>
           <button role="button" id="sys-info" class="btn btn-outline-primary smaller" title="View System Info">
             <i class="bi bi-pc-display-horizontal"></i></button>
         <button role="button" id="shortcuts" class="btn btn-outline-primary smaller" title="Shortcuts">
@@ -46,8 +46,8 @@
                 </div>
               </div>
               <div class="card-footer small">
-                <span id="sp1">1</span> Passed,
-                <span id="sf1">0</span> Failed,
+                <span id="sp1">0</span> Passed,
+                <span id="sf1">1</span> Failed,
                 <span id="ss1">0</span> Skipped
               </div>
             </div>
@@ -64,7 +64,7 @@
               </div>
               <div class="card-footer small">
                 <span id="sp2">1</span> Passed,
-                <span id="sf2">0</span> Failed,
+                <span id="sf2">2</span> Failed,
                 <span id="ss2">0</span> Skipped
               </div>
             </div>
@@ -81,7 +81,7 @@
                 </div>
                 <div class="card-footer small">
                   <span id="sp3">4</span> Passed,
-                  <span id="sf3">0</span> Failed,
+                  <span id="sf3">2</span> Failed,
                   <span id="ss3">0</span> Skipped
                 </div>
               </div>
@@ -92,43 +92,6 @@
     <!-- /dashboard section -->
 
     <!-- tag section -->
-      <div id="tags" class="container pb-5">
-        <div class="card card-custom">
-          <div class="card-header">
-            Tags
-          </div>
-          <div class="card-body">
-            <table id="tag-summary" class="table">
-              <thead>
-                <tr>
-                  <th scope="col" style="width:65%"></th>
-                  <th scope="col">Total</th>
-                  <th scope="col">Passed</th>
-                  <th scope="col">Failed</th>
-                  <th scope="col">Time</th>
-                </tr>
-              </thead>
-              <tbody>
-                  <tr>
-                    <td><a href="#" class="secondary tag">@regression</a></td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>32s</td>
-                  </tr>
-                  <tr>
-                    <td><a href="#" class="secondary tag">@sanity</a></td>
-                    <td>1</td>
-                    <td>1</td>
-                    <td>0</td>
-                    <td>32s</td>
-                  </tr>
-              </tbody>
-            </table>
-          </div>
-        </div>
-      </div>
-      <div class="border-bottom"></div>
     <!-- /tag section -->
   </div>
 
@@ -145,22 +108,18 @@
         </div>
       </div>
     </div>
-      <div class="test-container passed">
+      <div class="test-container failed">
         <div class="container">
           <div class="row">
             <div class="col-4">
-              <h6 class="mb-3 testname fs-6 passed">Feature: Login with valid credentials</h6>
+              <h6 class="mb-3 testname fs-6 failed">Feature: Login data driven with excel</h6>
               <div class="small">
-                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 33s</span>
+                <span class="badge badge-outline"><i class="bi bi-hourglass me-1"></i> 55s</span>
                 <span class="badge text-bg-info"><i class="bi bi-clock me-1"></i>
-                  2025-05-21 11:17:19 pm</span>
+                  2025-06-08 06:20:27 pm</span>
                 <span class="badge text-bg-warning"><i class="bi bi-clock me-1"></i>
-                  2025-05-21 11:17:53 pm</span>
+                  2025-06-08 06:21:23 pm</span>
               </div>
-                <div class="my-2">
-                    <span class="badge rounded-pill text-bg-secondary">@regression</span>
-                    <span class="badge rounded-pill text-bg-secondary">@sanity</span>
-                </div>
               
             </div>
             <div class="col-8">
@@ -169,15 +128,10 @@
                     <div class="d-flex justify-content-between">
                       <div>
                           <i class="bi bi-check-circle-fill text-success"></i>
-                        <span class="fs-6 ms-2">Scenario: Successful login with valid credentials</span>
+                        <span class="fs-6 ms-2">Scenario Outline: Login Data Driven Excel</span>
                       </div>
                       <div>
-                          <span class="tag-list">
-                              <span class="badge rounded-pill text-bg-secondary">@regression</span>
-                              <span class="badge rounded-pill text-bg-secondary">@sanity</span>
-                          </span>
-                          <span class="mx-1">&middot;</span>
-                        <span class="badge text-dark bg-light">32s</span>
+                        <span class="badge text-dark bg-light">26s</span>
                       </div>
                     </div>
                     
@@ -188,17 +142,81 @@
         </div>
         <div class="mt-1 pb-1">
             <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">When user enters email as "andolasoft.user133@gmail.com" and password as "mitra@1234"</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">And the user clicks on login button</span>
-        </div>
-        <div class="mt-1 pb-1">
-            <i class="bi bi-check-circle-fill text-success"></i>
-          <span class="ms-2">Then the user should redirect to my account page</span>
+          <span class="ms-2">Then the user should be redirected to MyAccount Page by passing email and password with excel row "1"</span>
         </div>
   </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Login Data Driven Excel</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">13s</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given the user navigates to login page</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then the user should be redirected to MyAccount Page by passing email and password with excel row "2"</span>
+            <pre class="py-2 mt-2">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinations.LoginSteps.the_user_should_be_redirected_to_my_account_page_by_passing_email_and_password_with_excel_row(LoginSteps.java:96)
+	at ✽.the user should be redirected to MyAccount Page by passing email and password with excel row "2"(file:///C:/Users/hp/eclipse-workspace/OpenCartCucumber/./Features/LoginDDTExcel.feature:5)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/94ec2d58-5852-43ea-a286-d3eed50c4292.png" />
+                          </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="card mb-3 result failed">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <div>
+                          <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+                        <span class="fs-6 ms-2">Scenario Outline: Login Data Driven Excel</span>
+                      </div>
+                      <div>
+                        <span class="badge text-dark bg-light">14s</span>
+                      </div>
+                    </div>
+                    
+  <div class="mt-2">
+        <div class="mt-1 pb-1">
+            <i class="bi bi-check-circle-fill text-success"></i>
+          <span class="ms-2">Given the user navigates to login page</span>
+        </div>
+        <div class="mt-1 pb-1">
+              <i class="bi bi-exclamation-octagon-fill text-danger"></i>
+          <span class="ms-2">Then the user should be redirected to MyAccount Page by passing email and password with excel row "3"</span>
+            <pre class="py-2 mt-2">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinations.LoginSteps.the_user_should_be_redirected_to_my_account_page_by_passing_email_and_password_with_excel_row(LoginSteps.java:96)
+	at ✽.the user should be redirected to MyAccount Page by passing email and password with excel row "3"(file:///C:/Users/hp/eclipse-workspace/OpenCartCucumber/./Features/LoginDDTExcel.feature:5)
+</pre>
+        </div>
+  </div>
+                      <div class="row mt-3">
+                          <div class="embed col-2 mb-1">
+                            <img src="resources/0ee9db82-9557-440b-ba01-f09b91076551.png" />
+                          </div>
+                      </div>
                   </div>
                 </div>
             </div>
@@ -209,22 +227,22 @@
   </div>
 
   <script>
-    const stats1Annotation = {'total': 1, 'passed': 1};
+    const stats1Annotation = {'total': 1, 'passed': 0};
     const stats1 = [
-      { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-      { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+      { result: 'Passed', count: 0, bg: 'rgb(140, 197, 83)' },
+      { result: 'Failed', count: 1, bg: 'rgb(233,80,113)' },
       { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
     ];
-      const stats2Annotation = {'total': 1, 'passed': 1};
+      const stats2Annotation = {'total': 3, 'passed': 1};
       const stats2 = [
         { result: 'Passed', count: 1, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
-      const stats3Annotation = {'total': 4, 'passed': 4};
+      const stats3Annotation = {'total': 6, 'passed': 4};
       const stats3 = [
         { result: 'Passed', count: 4, bg: 'rgb(140, 197, 83)' },
-        { result: 'Failed', count: 0, bg: 'rgb(233,80,113)' },
+        { result: 'Failed', count: 2, bg: 'rgb(233,80,113)' },
         { result: 'Skipped', count: 0, bg: 'rgb(13, 202, 240)' }
       ];
      
@@ -305,12 +323,12 @@
                   <td>Toggle skipped tests</td>
                 </tr>
                 <tr>
-                  <td>esc</td>
-                  <td>Reset all filters</td>
-                </tr>
-                <tr>
                   <td>L</td>
                   <td>Toggle theme (light/dark)</td>
+                </tr>
+                <tr>
+                  <td>esc</td>
+                  <td>Reset all filters</td>
                 </tr>
                 <tr>
                   <td>f</td>

@@ -30,8 +30,8 @@
                 <table style="padding: 20px;">
                   <tr>
                     <td>
-                      <span class="bg-passed" style="margin-right:10px;padding:0px 5px;">PASSED</span>
-                      <span style="">21-May-2025, 11:17:17 pm &middot; 36s</span>
+                      <span class="bg-failed" style="margin-right:10px;padding:0px 5px;">FAILED</span>
+                      <span style="">08-Jun-2025, 6:20:26 pm &middot; 57s</span>
                     </td>
                   </tr>
                 </table>
@@ -52,7 +52,7 @@
 	            <tr>
 	              <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;">Tests</p>
-	                <h1 style="font-size:34px;">1</h1>
+	                <h1 style="font-size:34px;">3</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#79B530">Passed</p>
@@ -60,7 +60,7 @@
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e64b5d">Failed</p>
-	                <h1 style="font-size:34px;">0</h1>
+	                <h1 style="font-size:34px;">2</h1>
 	              </td>
                 <td width="100" style="padding:30px 40px 20px;">
 	                <p style="font-weight:500;color:#7E7E7E;margin:0;color:#e6e04c">Skipped</p>
@@ -93,26 +93,6 @@
                     <td class="padding" width="10"></td>
                     <td style="" width="60">Skip</td>
                   </tr>
-                  <tr style="height:10px;"></tr>
-                  <tr>
-                    <td width="350">@regression</td>
-                      <td width="23"></td>
-                      <td style="" width="60">1</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                  </tr>
-                  <tr style="height:10px;"></tr>
-                  <tr>
-                    <td width="350">@sanity</td>
-                      <td width="23"></td>
-                      <td style="" width="60">1</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                      <td class="padding" width="10"></td>
-                      <td style="" width="60">0</td>
-                  </tr>
                 </table>
               </td>
             </tr>
@@ -125,6 +105,103 @@
     <table width="100%">
       <tr>
         <td align="center">
+          <table width="650">
+            <tr>
+              <td bgcolor="#FFF" style="padding:10px 20px;">
+                <table>
+                  <tr>
+                    <td width="650px" style="padding:10px;">
+                      <p class="text-failed" style="font-size:14px;font-weight:500;margin:0;margin-bottom:5px;">
+                        Feature: Login data driven with excel
+                      <p style="font-size:12px;margin:0;">
+                        <span>08-Jun-2025, 6:20:27 pm / 55s</span>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario Outline: Login Data Driven Excel
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given the user navigates to login page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then the user should be redirected to MyAccount Page by passing email and password with excel row "1"
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario Outline: Login Data Driven Excel
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given the user navigates to login page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then the user should be redirected to MyAccount Page by passing email and password with excel row "2"
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinations.LoginSteps.the_user_should_be_redirected_to_my_account_page_by_passing_email_and_password_with_excel_row(LoginSteps.java:96)
+	at ✽.the user should be redirected to MyAccount Page by passing email and password with excel row "2"(file:///C:/Users/hp/eclipse-workspace/OpenCartCucumber/./Features/LoginDDTExcel.feature:5)
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 10px;">
+                      <p style="font-size:13px;margin:0;">
+                        Scenario Outline: Login Data Driven Excel
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-passed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Given the user navigates to login page
+                      </p>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td width="650px" class="bg-failed" style="padding:7px 20px;">
+                      <p style="font-size:13px;margin:0;">
+                        Then the user should be redirected to MyAccount Page by passing email and password with excel row "3"
+<pre>java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinations.LoginSteps.the_user_should_be_redirected_to_my_account_page_by_passing_email_and_password_with_excel_row(LoginSteps.java:96)
+	at ✽.the user should be redirected to MyAccount Page by passing email and password with excel row "3"(file:///C:/Users/hp/eclipse-workspace/OpenCartCucumber/./Features/LoginDDTExcel.feature:5)
+</pre>
+                      </p>
+                    </td>
+                  </tr>
+                  <tr><td style="height:10px"></td></tr>
+                </table>
+              </td>
+            </tr>
+          </table>
         </td>
       </tr>
     </table>

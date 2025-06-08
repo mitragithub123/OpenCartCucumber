@@ -1,0 +1,58 @@
+18:11:53.046 [main] INFO  base.BaseTest - Entering email
+18:11:54.258 [main] INFO  base.BaseTest - Entering password
+18:16:46.490 [main] INFO  base.BaseTest - Navigating to login page
+18:16:49.231 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:16:49.243 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:16:49.261 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:16:51.586 [main] INFO  base.BaseTest - Entering email
+18:16:52.293 [main] INFO  base.BaseTest - Entering password
+18:16:52.710 [main] INFO  base.BaseTest - Clicking login button
+18:17:38.098 [main] INFO  base.BaseTest - Navigating to login page
+18:17:39.872 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:17:39.927 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:17:39.930 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:17:40.051 [main] INFO  base.BaseTest - Entering email
+18:17:40.791 [main] INFO  base.BaseTest - Entering password
+18:17:41.267 [main] INFO  base.BaseTest - Clicking login button
+18:19:45.846 [main] INFO  base.BaseTest - Navigating to login page
+18:19:48.216 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:19:48.227 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:19:48.233 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:19:49.996 [main] INFO  base.BaseTest - Entering email
+18:19:50.924 [main] INFO  base.BaseTest - Entering password
+18:19:51.664 [main] INFO  base.BaseTest - Clicking login button
+18:20:40.925 [main] INFO  base.BaseTest - Navigating to login page
+18:20:42.467 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:20:42.476 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:20:42.481 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:20:43.800 [main] INFO  base.BaseTest - Entering email
+18:20:44.606 [main] INFO  base.BaseTest - Entering password
+18:20:45.371 [main] INFO  base.BaseTest - Clicking login button
+18:21:04.036 [main] INFO  base.BaseTest - Navigating to login page
+18:21:05.477 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:21:05.487 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:21:05.524 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:21:05.638 [main] INFO  base.BaseTest - Entering email
+18:21:06.100 [main] INFO  base.BaseTest - Entering password
+18:21:06.395 [main] INFO  base.BaseTest - Clicking login button
+18:21:17.664 [main] INFO  base.BaseTest - Navigating to login page
+18:21:19.154 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+18:21:19.156 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+18:21:19.158 [main] DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+18:21:19.246 [main] INFO  base.BaseTest - Entering email
+18:21:19.732 [main] INFO  base.BaseTest - Entering password
+18:21:20.044 [main] INFO  base.BaseTest - Clicking login button
+18:26:44.598 [main] INFO  base.BaseTest - Navigating to login page
+18:26:57.579 [main] INFO  base.BaseTest - Navigating to login page
+18:27:09.376 [main] INFO  base.BaseTest - Navigating to login page
+18:27:20.892 [main] INFO  base.BaseTest - Navigating to login page
+18:27:32.070 [main] INFO  base.BaseTest - Navigating to login page
+18:37:13.102 [main] INFO  base.BaseTest - Navigating to login page
+18:37:25.287 [main] INFO  base.BaseTest - Navigating to login page
+18:39:57.722 [main] INFO  base.BaseTest - Navigating to login page
+18:40:09.100 [main] INFO  base.BaseTest - Navigating to login page
+18:40:20.292 [main] INFO  base.BaseTest - Navigating to login page
+18:40:31.137 [main] INFO  base.BaseTest - Navigating to login page
+18:40:41.795 [main] INFO  base.BaseTest - Navigating to login page
+18:44:06.228 [main] INFO  base.BaseTest - Navigating to login page
+18:44:07.350 [main] INFO  base.BaseTest - Entering email
